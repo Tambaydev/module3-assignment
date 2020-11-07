@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  display: block;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#header-nav {
+  background-color: gray;
+  border-radius:0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black; 
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1{
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  
+}
+
+.navbar-header{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.navbar {
+  padding: 0px 0px !important;
+}
+.navbar-nav{
+   margin : 0px -15px;
+}
+
+ul{
+	background-color: white;
+  border: 1px solid;
+}
+
+li{
+	border: 1px solid;
+	font-weight: bold;
+	font-size: 20px;
+	}
+
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  position: relative;
+  float:flex;
+  top: 20px;
+  bottom: 25px;
+}
+
+h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+section p {
+  font-family: Verdana, Geneva, sans-serif;
+  
+}
+.box {
+  border: none;
+  background-color: #999c9c;
+  font-size: 15px;
+  color: black;
+  margin: 10px;
+  margin-top: 10px;
+  float: left;
+  padding: 10px;
+  }
+
+/*******Large Devices*******/
+@media screen and (min-width: 800px) and (max-width: 1440px) {
+.navbar-toggler {
+    visibility:hidden;
+} 
+#navbar-text {
+    visibility: hidden;
+}
+}
+
+/***Extra small devices (<576px)***/
+  #navbar-text {
+      font-family: Verdana, Geneva, sans-serif;
+      visibility: visible;
+      background-color: #ffffff;
+  }
+ .navbar-toggler {
+      position: relative;
+      float: right;
+      padding: 0px;
+      margin-top: 8px;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      border: 1px solid black;
+      border-radius: 4px;
+      visibility: visible;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/***Small devices (576px and up)***/
+@media (min-width: 576px) {
+  #navbar-text {
+      font-family: Verdana, Geneva, sans-serif;
+      background-color: #ffffff;
+      visibility: visible;
+  }
+ .navbar-toggler {
+      position: relative;
+      float: right;
+      padding: 0px;
+      margin-top: 8px;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      border: 1px solid black;
+      border-radius: 4px;
+      visibility: visible;
+  }  
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/***Medium devices (768px and up)***/
+@media (min-width: 768px) {
+  #navbar-text {
+      font-family: Verdana, Geneva, sans-serif;
+      text-align: center;
+      visibility: visible;
+  }
+ .navbar-toggler {
+  position: relative;
+  float: right;
+  padding: 0px;
+  margin-top: 8px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  border: 1px solid black;
+  border-radius: 4px;
+  visibility: visible;
+  }
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/***Large devices (992px and up)***/
+@media (min-width: 992px) {
+.navbar-toggler {
+    visibility:hidden;
+} 
+#navbar-text {
+    visibility: hidden;
+}
+}
+
+/***Extra large devices (1200px and up)***/
+@media (min-width: 1200px) {
+.navbar-toggler {
+    visibility:hidden;
+} 
+#navbar-text {
+    visibility: hidden;
+}
